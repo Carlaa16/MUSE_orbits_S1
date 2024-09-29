@@ -1,5 +1,7 @@
 module LinearSystems
 
+using LinearAlgebra  # Necesario para la función dot
+
 function Gauss(A, b)
     """
     Solutions to a system of linear equations A * x = b
