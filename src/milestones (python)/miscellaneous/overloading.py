@@ -94,13 +94,13 @@ def sin(z):
 
 #    return dual_number( sin(z.x), z.y * cos(z.x) ) 
 
-#def logd(z): 
+def logd(z): 
 
-#    return dual_number( log(z.x), z.y / z.x )  
+    return dual_number( log(z.x), z.y / z.x )  
 
-#def expd(z): 
+def expd(z): 
 
-#    return dual_number( exp(z.x), z.y * exp(z.x) )  
+    return dual_number( exp(z.x), z.y * exp(z.x) )  
 
 #def sqrtd(z): 
 
